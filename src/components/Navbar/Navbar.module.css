@@ -1,0 +1,29 @@
+.verticalMenu {
+  width: 20%;
+  height: 100vh;
+  position: relative;
+  background-color: #eee;
+}
+.verticalMenu__center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.verticalMenu a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.verticalMenu a:hover {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #00fff2;
+
+}
