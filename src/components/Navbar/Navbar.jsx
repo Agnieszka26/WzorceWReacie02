@@ -1,4 +1,4 @@
-import {useMatch, useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import {BiCameraMovie} from "react-icons/bi";
 import {FaHome} from "react-icons/fa";
 import {MdOutlinePlace} from "react-icons/md";

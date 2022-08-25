@@ -18,7 +18,7 @@ const Movies = ({name, email, isAdmin}) => {
       justifyContent="center"
       direction="column"
     >
-      {!isUserSetCorrectPassphrase ? (
+      {!isUserSetCorrectPassphrase ? ( // negation to show component
         <>
           <Typography sx={{p: 1}}>Movies</Typography>
           <Card sx={{minWidth: 275, p: 1}}>
