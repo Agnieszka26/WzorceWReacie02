@@ -8,7 +8,7 @@ import {
 import {useNavigate} from "react-router-dom";
 
 import React, {useContext} from "react";
-import {SubmitHandler, useForm} from "react-hook-form";
+import { useForm} from "react-hook-form";
 import {ContextList} from "../Context/ContextPassphrase";
 import params from "../params/params";
 
@@ -16,10 +16,8 @@ const PassPhraseForm = () => {
   let navigate = useNavigate();
   const {passphrase} = params;
   const context = useContext(ContextList);
-  // const {users} = context;
-
-  const title = "Please, enter your password";
-  const {isUserSetCorrectPassphrase, setIsUserSetCorrectPassphrase} = context;
+  const title = "Please, enter: password";
+  const {setIsUserSetCorrectPassphrase} = context;
   const {
     register,
     handleSubmit,
